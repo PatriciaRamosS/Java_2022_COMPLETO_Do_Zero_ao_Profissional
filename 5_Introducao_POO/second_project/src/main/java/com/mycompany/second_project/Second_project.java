@@ -19,8 +19,8 @@ public class Second_project {
         product.price = sc.nextDouble();        
         System.out.print("Quantity in stock: ");
         product.quantity = sc.nextInt();
-        System.out.println("Product data: " + product + "%n");
-        
+        System.out.println("Product data: " + product);
+        System.out.println();
         System.out.println("Enter the number of products to be added in stock: ");
         int quantity = sc.nextInt();
         product.addProducts(quantity);
